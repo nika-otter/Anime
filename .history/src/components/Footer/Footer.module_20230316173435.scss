@@ -1,0 +1,55 @@
+.footer_box {
+  min-height: 2rem;
+  background-color: rgba(255, 192, 203, 0.37);
+  max-height: 4rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.logo {
+  height: 2rem;
+  width: 2rem;
+  clip-path: polygon(
+    50% 0%,
+    54% 38%,
+    79% 49%,
+    61% 61%,
+    80% 90%,
+    39% 69%,
+    20% 90%,
+    19% 67%,
+    6% 5%,
+    29% 48%
+  );
+  background-color: white;
+
+  flex-shrink: 0;
+}
+
+.title {
+  color: white;
+  letter-spacing: 0.8rem;
+  font-size: 1rem;
+}
+
+.title:hover {
+  cursor: default;
+}
+.logo_box {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.github {
+  height: 2rem;
+  width: 2rem;
+  background-color: white;
+  border-radius: 30px;
+  padding: 3px;
+  box-sizing: border-box;
+  img {
+    height: 100%;
+  }
+}

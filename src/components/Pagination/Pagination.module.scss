@@ -1,0 +1,60 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  color: rgb(186, 186, 186);
+  background-color: rgba(0, 0, 0, 0.482);
+  border: none;
+  margin: 1rem 2px;
+  font-size: 1.5rem;
+  height: 2rem;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.button_active {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.482);
+  border: none;
+  margin: 1rem 2px;
+  font-size: 1.5rem;
+  height: 2rem;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.dots {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.pointer {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.482);
+  border: none;
+  margin: 1rem 2px;
+  font-size: 1.5rem;
+  height: 2rem;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.pointer_disable {
+  display: none;
+}
+@media screen and (max-width: 720px) {
+  .button {
+    margin: 1rem 2px;
+    font-size: 1.5rem;
+    height: 2rem;
+    padding: 0 5px;
+  }
+
+  .button_active {
+    margin: 1rem 2px;
+    font-size: 1.5rem;
+    height: 2rem;
+    padding: 0 5px;
+  }
+  .pointer {
+    display: none;
+  }
+}

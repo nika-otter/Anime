@@ -1,0 +1,17 @@
+.synopsis {
+  padding: 1rem;
+  max-width: 50rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  article {
+    color: white;
+    text-align: justify;
+  }
+}
+.span {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+}

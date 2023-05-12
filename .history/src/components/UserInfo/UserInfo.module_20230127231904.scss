@@ -1,0 +1,23 @@
+.info{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0.5rem;
+}
+.full_info{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    img{
+        border-radius: 3px;
+    }
+    
+}
+.general{
+    margin: 0 1rem ;
+    // background-color: aquamarine;
+}
+.span{
+    color: white;
+    font-size: 2rem;
+}

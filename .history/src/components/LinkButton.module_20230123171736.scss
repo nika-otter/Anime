@@ -1,0 +1,22 @@
+.link_button{
+    height: 2rem;
+    text-align: center;
+    background-color: rgba(255, 192, 203, 0);
+    border: 0 solid;
+    border-radius: 3px;
+    color: white;
+    &:hover{
+        background-color: rgba(255, 192, 203, 0.37);
+    }
+}
+@media screen and (max-width: 720px) {
+    .link_button {
+        margin: 2px;
+        background-color: rgba(166, 166, 166, 0.532);
+        // background-color: rgba(0, 0, 0, 0.626);
+        font-size: small;
+        &:hover {
+                background-color: rgba(166, 166, 166, 0.532);
+            }
+    }
+}

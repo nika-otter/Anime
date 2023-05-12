@@ -1,0 +1,40 @@
+.button{
+    color: rgb(186, 186, 186);
+    background-color: rgba(0, 0, 0, 0.482);
+    border: none;
+    margin: 2px;
+    font-size: 1.5rem;
+    height: 2rem;
+   padding: 10px 10px;
+}
+.button_active {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.482);
+    border: none;
+    margin: 2px;
+    font-size: 1.5rem;
+        height: 2rem;
+            padding: 0 10px;
+}
+.dots{
+    color: white;
+}
+.pointer{
+    color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.482);
+        border: none;
+        margin: 2px;
+        font-size: 1.5rem;
+        height: 2rem;
+        padding: 0 10px;
+}
+.pointer_disable{
+    // color: rgb(186, 186, 186);
+    //     background-color: rgba(0, 0, 0, 0.482);
+    //     border: none;
+    //     margin: 2px;
+    //     font-size: 1.5rem;
+    //     height: 2rem;
+    //     padding: 0 10px;
+    display: none;
+}

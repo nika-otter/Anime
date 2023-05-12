@@ -1,0 +1,54 @@
+.nav_box {
+  display: none;
+}
+.nav_active {
+  display: none;
+}
+.logo {
+  height: 2rem;
+  width: 2rem;
+  clip-path: polygon(
+    50% 0%,
+    54% 38%,
+    79% 49%,
+    61% 61%,
+    80% 90%,
+    39% 69%,
+    20% 90%,
+    19% 67%,
+    6% 5%,
+    29% 48%
+  );
+  background-color: white;
+
+  flex-shrink: 0;
+}
+
+.logo_box {
+  display: flex;
+}
+.wrapper_active {
+  background-color: rgba(0, 0, 0, 0.432);
+  z-index: 19;
+  position: relative;
+}
+
+.burger {
+  height: 2rem;
+  width: 2rem;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 720px) {
+  .nav_box {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 1rem 0 1rem;
+  }
+  .nav_active {
+    display: grid;
+    margin: 10px 0;
+    padding: 0 1rem 1rem 1rem;
+  }
+}

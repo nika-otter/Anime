@@ -1,0 +1,38 @@
+.header_panel_box {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.logo {
+  height: 4rem;
+  width: 4rem;
+  clip-path: polygon(
+    50% 0%,
+    54% 38%,
+    79% 49%,
+    61% 61%,
+    80% 90%,
+    39% 69%,
+    20% 90%,
+    19% 67%,
+    6% 5%,
+    29% 48%
+  );
+  background-color: white;
+
+  flex-shrink: 0;
+}
+@media screen and (max-width: 720px) {
+  .header_panel_box {
+    display: none;
+  }
+  .logo_box {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .logo {
+    height: 2rem;
+    width: 2rem;
+  }
+}

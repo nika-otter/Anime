@@ -1,0 +1,17 @@
+.logo {
+    height: 4rem;
+    width: 4rem;
+    clip-path: polygon(50% 0%,
+            54% 38%,
+            79% 49%,
+            61% 61%,
+            80% 90%,
+            39% 69%,
+            20% 90%,
+            19% 67%,
+            6% 5%,
+            29% 48%);
+    background-color: white;
+
+    flex-shrink: 0;
+}

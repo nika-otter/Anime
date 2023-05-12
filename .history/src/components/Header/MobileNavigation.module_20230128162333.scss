@@ -1,0 +1,40 @@
+.logo {
+    height: 2rem;
+    width: 2rem;
+    clip-path: polygon(50% 0%,
+            54% 38%,
+            79% 49%,
+            61% 61%,
+            80% 90%,
+            39% 69%,
+            20% 90%,
+            19% 67%,
+            6% 5%,
+            29% 48%);
+    background-color: white;
+
+    flex-shrink: 0;
+}
+.title {
+    color: white;
+
+    // transform: translateY(5vh);
+    // letter-spacing: 1rem;
+    font-size: 1rem;
+}
+.logo_box{
+    display: flex;
+    justify-content: space-around;
+}
+// .title_media {
+//     display: none;
+//     color: white;
+// }
+
+.title:hover {
+    cursor: default;
+}
+.header_panel_box{
+    display: flex;
+    justify-content: space-evenly;
+}
